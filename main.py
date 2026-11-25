@@ -3,14 +3,12 @@ import os
 
 # Draft 1: "One star: Earth gravity squashed my luggage, the queues never
 # moved, and the fried chicken was so good I almost forgave the planet."
-# Revised (genuine): the queue complaint was generic human griping any
-# tourist could write, "fried chicken" was unseasoned, and the "and" join
-# stated the turn instead of landing it. The final keeps the one-star
-# frame but makes the grievances alien-specific (gravity as a physical
-# insult, rain falling sideways for days) and the food compliment concrete
-# (salted fried chicken), with "yet" as the turn: the planet is forgiven
-# anyway, which is the joke.
-ENTRY = "One star: the gravity flattened my luggage, the rain fell sideways for days, yet the salted fried chicken was so good I forgave the planet anyway."
+# Revised again (genuine, message 2): "was so good" was a vague,
+# unearned compliment — it stated approval instead of showing it.
+# The food now gets a concrete sensory detail (the crunch) plus an
+# alien physical reaction (antennae standing up), which makes the
+# compliment land and sharpens the turn into forgiveness.
+ENTRY = "One star: the gravity flattened my luggage, the rain fell sideways for days, yet the salted fried chicken crunched so loud my antennae stood up and I forgave the planet anyway."
 
 
 def validate(entry=ENTRY):
